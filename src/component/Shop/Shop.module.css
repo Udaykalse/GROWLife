@@ -1,4 +1,4 @@
-/* Shop.module.css */
+
 
 .shopcontainer {
   display: flex;
@@ -8,8 +8,40 @@
   flex-direction: column;
   margin-right: 50%;
   margin-bottom: 10px;
-  /* margin-top: 40px; */
+
 }
+
+.ShopTitle {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.productname {
+  margin: 0; }
+
+.title {
+  display: flex;
+  align-items: center; 
+}
+
+.like {
+  width: 50px; 
+  height: auto;
+  margin-left: 180px; 
+}
+
+.Shopproductname {
+  display: flex;
+  align-items: center; 
+}
+
+.productname {
+  margin: 0; 
+}
+
+
+
 
 .mainAbout {
   display: flex;
@@ -17,10 +49,15 @@
 }
 
 .mainHeading {
-  margin: 0;
+  margin-right: 10px;
   padding: 0 30px;
-  font-size: 24px;
-  width: max-content;
+
+  color: #716f6f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .rightline,
@@ -48,8 +85,11 @@
 
 .rating {
   display: flex;
-  align-items: start;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: start;
+  width: 50%;
   height: 30.688px;
   flex-shrink: 0;
   margin: 0 0 20px 0;
@@ -58,11 +98,10 @@
 .productcard {
   border: 1px solid #ccc;
   border-radius: 5px;
-  text-align: center;
   padding: 20px;
   width: 300px;
   border-radius: 17px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.25);
   height: 607px;
 }
@@ -77,7 +116,9 @@
   margin: 10px 0;
 }
 
-.like-image {
+.likeimage {
+  display:flex;
+
   width: 38px;
   height: 38px;
   flex-shrink: 0;
@@ -111,7 +152,7 @@
 
 .bottom {
   text-align: center;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .viewAll {
@@ -119,4 +160,13 @@
   color: #333;
 }
 
-/* Additional styles for other elements can be added here as needed */
+.Shopmaindiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  flex-direction: column;
+  text-align: start; 
+}
+
+

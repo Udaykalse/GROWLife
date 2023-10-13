@@ -51,13 +51,15 @@ const Shop = () => {
                 alt={product.name}
                 className={style.productimage}
               />
+              <div className={style.ShopTitle}>
               <h2 className={style.productname + " " + style.title}>
                 {product.title}
+                <img src={like} alt="like" className={style.like} />
               </h2>
+              </div>
 
-              <div className={style.maindiv}>
+              <div className={style.Shopproductname}>
                 <h3 className={style.productname}>{product.name}</h3>
-                <img src={like} alt="like" className={style["like-image"]} />
               </div>
 
               <div className={style.rating}>
