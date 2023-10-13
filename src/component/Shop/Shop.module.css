@@ -1,0 +1,122 @@
+/* Shop.module.css */
+
+.shopcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-right: 50%;
+  margin-bottom: 10px;
+  /* margin-top: 40px; */
+}
+
+.mainAbout {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeading {
+  margin: 0;
+  padding: 0 30px;
+  font-size: 24px;
+  width: max-content;
+}
+
+.rightline,
+.leftline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #000;
+  padding: auto;
+  height: 1.5px;
+  background-color: #000;
+  width: 500px;
+}
+
+.shopcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  gap: 20px;
+}
+
+.rating {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  height: 30.688px;
+  flex-shrink: 0;
+  margin: 0 0 20px 0;
+}
+
+.productcard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  border-radius: 17px;
+  background: #FFF;
+  box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.25);
+  height: 607px;
+}
+
+.productimage {
+  max-width: 100%;
+  height: auto;
+}
+
+.productname {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.like-image {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.productdetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productprice {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.buybutton {
+  display: inline-flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #327e47;
+  color: #ffffff;
+}
+
+.bottom {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.viewAll {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Additional styles for other elements can be added here as needed */

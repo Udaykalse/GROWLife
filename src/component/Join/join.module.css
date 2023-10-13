@@ -1,0 +1,94 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-heading {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cardcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.cardtwo {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 400px;
+  height: 198px;
+  color: #fff;
+  background: #8cdc98;
+}
+.cardcontainer span {
+  color: #fff;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cardone {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  height: 198px;
+  background: #62b6e5;
+  border-radius: 5px;
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.subheading {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Joinparagraph {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+  width: 50%;
+  padding: 0 20%;
+  margin: auto;
+}
+
+.spantwo {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

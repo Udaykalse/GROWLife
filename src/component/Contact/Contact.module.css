@@ -1,0 +1,182 @@
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.mainAbout {
+  display: flex;
+  align-items: center;
+}
+
+.mainHeading {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 24px;
+  width: max-content;
+}
+
+.rightline,
+.leftline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #000;
+  padding: auto;
+  height: 1.5px;
+  background-color: #000;
+  width: 500px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.conatctParagraph {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  margin-right:50px ;
+  width: 50%;
+}
+
+p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form {
+  flex: 2;
+  padding: 40px;
+
+  border-radius: 10px;
+  width: 779px;
+  height: 475px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+.ContactButton {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 303px;
+  height: 42px;
+  border-radius: 50px;
+  border: 1px solid #1f588e;
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px rgba(188, 223, 242, 0.25);
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #327e47;
+  outline: none;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.contactInfo img {
+  max-width: 60px;
+  height: auto;
+}
+
+.contactInfo p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.socialmedia {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 20%;
+}
+
+.phone,
+.email,
+.location {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.phone img,
+.email img {
+  margin-right: 50px;
+}
+
+.location img {
+  margin-right: 100px;
+}
+
+.socialmedia P {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.SendIcon {
+  width: 42px;
+  height: 42px;
+  background-color: #1f588e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left:92% ;
+  /* margin-bottom: 80%; */
+  margin-top: -10px;
+}

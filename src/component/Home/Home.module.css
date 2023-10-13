@@ -1,0 +1,86 @@
+/* src/components/Home.css */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-left: 70px;
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 50%;
+  margin: auto;
+  /* padding: 10px 20px; */
+  margin: 10px 20px;
+}
+
+h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #6d6c6c;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.joinbutton {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 15px;
+  background: #1f588e;
+}
+
+.donatebuttonMargin {
+  margin-left: 10px;
+}
+
+.donatebutton {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 15px;
+  background: #327e47;
+}
+
+.image {
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 60%;
+}
+
+.image img {
+  width: 448px;
+  height: 448px;
+  flex-shrink: 0;
+  padding: 0 0 0 95px;
+}
