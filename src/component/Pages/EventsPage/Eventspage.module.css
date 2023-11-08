@@ -1,0 +1,292 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  background: #fff;
+  color: #fff;
+  padding: 20px;
+}
+
+.Button {
+  background-color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.logo img {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navlinks {
+  background-color: #e6e3e3;
+}
+
+.AnchorEvents {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  background: none;
+  background-color: white;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 22px;
+  margin: 0 10px;
+  background: #e6e3e3;
+  width: 736px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.searchbar input {
+  color: #716f6f;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 60px;
+}
+
+.searchbar img {
+  margin-left: -65%;
+}
+
+.notification,
+.sign-up {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.notification {
+  margin: 0 10px;
+}
+
+.notification button,
+.sign-up button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.notification button img,
+.sign-up button img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification button:hover,
+.sign-up button:hover {
+  cursor: pointer;
+}
+/* Navbar ends */
+
+/* Section Events  */
+
+.SectionContainer {
+  width: 1146px;
+  height: 260px;
+  border-radius: 20px;
+  border: 1px solid #eeecec;
+  background: #fff;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -23%;
+  position: relative;
+}
+
+.SectionContainerParagraph {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+}
+
+.SectionAnchor {
+  color: #2743fd;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
+/* Cards */
+
+.Section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: start;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 66%;
+  flex-wrap: wrap;
+  padding: 17%;
+}
+
+/* Section Title */
+.SectionContainer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Event Card Container */
+.CardsSections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+/* Individual Event Card */
+.EventCard {
+  width: 420px;
+height: 350px; 
+border-radius: 10px;
+border: 1px solid #E2DEDE;
+background: #FFF;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 10px;
+  text-align: start;
+  max-width: 250px;
+  margin-top: 6%;
+  margin-right: 6%;
+}
+
+/* Event Image */
+.EventsImage {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Event Subtitle */
+.EventssubTitle {
+  color: #181717;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* Event Title */
+.EventsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.EventsButton {
+  display: flex;
+width: 239px;
+height: 55px;
+padding: 15px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 2px solid #1F588E;
+background: #FFF;
+color: #1F588E;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.EventsButton:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+.eventsContainer {
+  display: flex;
+  flex-direction: column; 
+}
+
+.upcomingEventsContainer, .ongoingEventsContainer {
+  margin-bottom: 20px;
+  width: 100%;
+display: flex;
+justify-content: center;
+position: relative;
+padding: 10px;
+}
+
+.EventLinks{
+  text-decoration: none;
+  color: #000;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+.FatureEvents{ color: #2743fd;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  position: absolute;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.EventSchudule {
+  display: flex;
+  justify-content: space-between;
+}
+
+.EventLinks {
+  flex: 1; 
+  text-align: left;
+}
+
+.FatureEvents {
+  flex: 1; 
+  text-align: right;
+}
+
