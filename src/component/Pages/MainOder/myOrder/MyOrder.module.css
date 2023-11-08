@@ -1,0 +1,119 @@
+.OrderConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.OrderCard{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 1030px;
+    height: 209px;
+  
+}
+
+/* ai */
+
+
+/* styles.css */
+
+.OrderCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.OrderImage img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.MyOrderParagraph {
+  color: #242424;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.GreenSpan {
+  color: green;
+}
+
+.RedSpan {
+  color: rgb(238, 25, 25);
+}
+
+.SecondParagraph {
+  color: #777;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Secondspan {
+  color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  margin-left: 62px;
+}
+
+.OrderNumber {
+  color: #3A3A3A;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.FeedbackDiv {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 26%;
+  margin-right: 14%;
+  width: 0;
+  height: 0;
+}
+
+.Paragraph{
+  margin-right: 18%;
+margin-top: -2%;
+width: 46%;
+}
+
+.OrderFeedback {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.OrderFeedback button:hover{
+  cursor: pointer;
+  background: black;
+  background: none;
+  border: none;
+  color: blue;
+}
+.OrderFeedback button{
+  background: none;
+  border: none;
+  color: #1F588E;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
