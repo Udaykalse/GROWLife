@@ -1,0 +1,77 @@
+/* Followers.module.css */
+.Section {
+  margin-top: -10%;
+  margin-left: 45%;
+  width: 100%;
+}
+.HorizontalLine {
+  width: 45%;
+  height: 1px;
+  background-color: #000;
+  margin-top: -10%;
+}
+
+/* follower css */
+
+.Cards {
+  padding-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding-right: 85%; */
+}
+
+.FollowerCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 40%;
+  margin-right: 57%;
+}
+
+.FollowerInfo{
+    margin-right: 50%;
+}
+
+.buttonDiv {
+  display: inline-flex;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+  background: #24badb;
+}
+
+/* font style */
+
+.UserName {
+  color: #111;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.UserNumber {
+  color: #515151;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.FollowButton {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: none;
+  border: none;
+}
