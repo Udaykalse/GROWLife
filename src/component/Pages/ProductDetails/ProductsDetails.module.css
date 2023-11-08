@@ -1,0 +1,286 @@
+.productdetailsNavbar {
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.ProductDetailsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    gap: 25px;
+}
+
+.ProductDetailsLogo h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ProductDetailsConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    /* gap: 10px; */
+}
+
+.productdetailsImage {
+    /* order: -1; */
+    margin-top: -75%;
+    margin-left: 10%;
+}
+
+.productdetailsDescription {
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductDetailsLogo svg {
+    border-radius: 55%;
+    background: #d9d9d9;
+    color: white;
+}
+
+.ProductDetailsLike svg {
+    width: 40px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.ProductDetailsICONS {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 10px;
+    gap: 25px;
+}
+
+.ProductDetailsCards {
+    margin-top: 10px;
+}
+
+.ProductDetailsCardsImages {
+    background-image: url("./../../Assets/ProductDetails/ProductDetails6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+
+.ProductDetailsCardsIcon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.ProductDetailsCardsImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
+}
+
+.ProductDetailsCards {
+    margin-top: 205%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #327E47;
+    border: 1px solid #327E47;
+}
+
+
+.productdetailsDescriptionTitle {
+    text-align: start;
+}
+
+.productdetailsDescriptionTitle h1 {
+    color: #515050;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.productdetailsDescriptionPrice {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 9%;
+    margin-right: 10%;
+}
+
+.scratch {
+    text-decoration: line-through;
+}
+
+.productdetailsDescriptionFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.descriptionButton {
+    display: inline-flex;
+    padding: 5px 20px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    background: #268E15;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.productdetailsDescriptionInfoH1 {
+    color: #181717;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.productdetailsDescriptionInfo span {
+    color: #181717;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.productdetailsDescription p {
+    color: #2E2C2C;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.firstPrice{
+    color: #272626;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+/* .ProductDetailsButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+
+} */
+
+.ProductDetailButton{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction:row;
+    padding: 10px;
+    gap: 60%;
+
+}
+
+.DetailsCardsBuy{
+    width: 220px;
+height: 60px;
+/* height: 40px; */
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 6px;
+background: #327E47;
+}
+
+.DetailsCardsAdd{
+    width: 220px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid #327E47;
+color: #327E47;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.productdetailsDescriptionFooter{
+    border: #000 1px;
+}
+
+.footerHeading h1{
+    text-align: start;
+}
+
+.footerbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: #000 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

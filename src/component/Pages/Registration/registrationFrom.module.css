@@ -1,0 +1,184 @@
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.From{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* CSS styles */
+
+/* .UploadImageSvg{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+width: 100%;}
+
+.UploadImageSVG{
+    background-color: #716F6F ;
+    color: black;
+} */
+
+/* .cameraButton{
+    width: 10px;
+    height: 10px;
+    margin-top: -23%;
+} */
+
+.Upload {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  label {
+    flex-direction: column;
+display: flex;
+    display: flex;
+    font-size: 18px;
+    margin: 10px 0;
+    border-bottom: 1px;
+  }
+
+
+   .InputUserName{
+      border-bottom: 2px solid; 
+  }
+
+  .Fristname{
+    border: none;
+    border-bottom: 1px bold #eee;
+  }
+
+  .cameraIcon{
+    background-color: green;
+  }
+  
+  
+  .UploadImage {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 36px;
+width: 140px;
+height: 139px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button {
+    /* background-color: #007bff; */
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  
+  button:hover {
+    background-color:#515050 transparent;
+    border-radius: 36px; 
+  }
+  
+  .UserName{
+    color: #515050;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 60px;
+  }
+
+  .FromGender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .genderHead{
+    margin-right: 65%;
+margin-top: 10px;
+  }
+
+  .genderBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 10px;
+  }
+
+  .genderTitle{
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+
+  .genderBody{
+    width: 50%;
+  }
+  .genderSection{
+    padding: 30px;
+  }
+
+  .FromGender label {
+    color: #515050;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .genderInput{
+    width: 25px;
+height: 25px;
+flex-shrink: 0;
+fill: #1F588E;
+color: #1F588E;
+
+  }
+
+
+  .SubmitButton{
+    width: 315px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 28px;
+background: #1F588E;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
