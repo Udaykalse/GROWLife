@@ -1,0 +1,331 @@
+.OrderNamvbar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row;
+    /* margin-right: 80%; */
+    background:transparent;
+    width: 100%;
+    height: 100%;
+    padding: 17px;
+}
+
+.OrderTitle{
+    margin-left: 1%;
+}
+
+.OrderTitle h1{
+    color: #000;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.OrderConatiner{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.orderBox{
+    /* background: red; */
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Orderdetails{
+    color:black;
+    width: 40%;
+    height: auto;
+    margin-right: 11px;
+}
+.Change{
+    color: #1F588E;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+padding: 2px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 9px;
+border: 1px solid #1F588E;
+}
+.buttonChange{
+    margin-bottom: 11%;
+    margin-left: 41%;
+}
+.AddressDetails{
+    margin-left: 9px;
+    background: gold;
+}
+
+.Continue{
+    margin-top: 2px;
+    margin-left: 73%;
+    color: #FFF;
+/* leading-trim: both;
+text-edge: cap; */
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: inline-flex;
+padding: 25px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #327E47;
+}
+
+.Orderbill{
+    /* s */
+    margin-bottom: 36px;
+    width: 40%;
+    height: auto;
+}
+
+.Donation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 19%;
+    height: 17rem;
+    border-radius: 50% 1px #000;
+    /* background: skyblue; */
+}
+
+.DonationTitle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.DonationHeading{
+    color: #292929;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Donationparagraph{
+    color: #515050;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.DonationButtons{
+    /* margin: 100px 26%; */
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    /* background: violet; */
+
+}
+.donateNow{
+    display: inline-flex;
+padding: 2px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid #111;
+}
+
+
+.DonationNote{
+    margin-right: 52%;
+    /* background: #268E15; */
+}
+.Donationparagraph{
+    color: #515050;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.DonationNoteHr{
+    /* margin: 100px 0 0 0 ; */
+    background: #000;
+
+}
+
+.OrderPrice{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 33px;
+}
+.Orderparagraph{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Priceparagraph{
+    color: #292929;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.orderInfo{
+    display: flex;
+    align-items: center;
+    background: red;
+}
+.orderAddress{
+    align-items: center;
+    display: flex;
+    background: yellow;
+}
+
+.OrderImage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.OrderImage img{
+    width: 115px;
+height: 121px;
+flex-shrink: 0;
+border-radius: 4px;
+background: lightgray 50% / cover no-repeat;
+}
+
+.orderDetail{
+    margin-left: 10px;
+    background: #327E47;
+}
+
+.OrderTime{
+    margin-left: 35%;
+    background:transparent;
+    margin-bottom: 13%;
+}
+
+.spanfree{
+    margin-left: 65%;
+    color: #327E47;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.spanbillPrice{
+    margin-left: 65%;
+    color: #292929;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.TotalSpan{
+    margin-left: 65%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Priceparagraph{
+    color: #292929;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.spanGreen{
+    color: #268E15;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.Totalparagraph{
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.TotalSpan{
+    color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.FooterParagraph{
+    color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
