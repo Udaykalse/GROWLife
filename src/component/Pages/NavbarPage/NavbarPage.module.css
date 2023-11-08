@@ -1,0 +1,112 @@
+
+
+   /* Base styles for all screen sizes */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Logo styles */
+.logo img {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Navigation link styles */
+.navlinks a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Search bar styles */
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border-radius: 50px;
+  background: #e6e3e3;
+  width: 911px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.searchbar input {
+  color: #716F6F;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  width: 895px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.searchbar img {
+  margin-left: -99%;
+}
+
+/* Notification and Sign-up button styles */
+.notification,
+.sign-up {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.notification {
+  margin: 0 10px;
+}
+
+.notification button,
+.signup button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.notification button img,
+.signup button img {
+  width: 40px;
+  height: 41px;
+}
+
+.notification button:hover,
+.signup button:hover {
+  cursor: pointer;
+}
+
+/* Media queries for responsive design */
+
+/* Styles for screens up to 300px */
+@media (max-width: 300px) {
+  /* Add your responsive styles here */
+}
+
+/* Styles for screens from 301px to 600px */
+@media (min-width: 301px) and (max-width: 600px) {
+  /* Add your responsive styles here */
+}
+
+/* Styles for screens from 601px to 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Add your responsive styles here */
+}
