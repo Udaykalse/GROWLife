@@ -1,0 +1,162 @@
+.Section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: -5%;
+}
+
+.profileButtons {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 50%;
+  gap: 15%;
+}
+
+.followButton {
+  display: flex;
+  width: 192px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #1f588e;
+}
+
+.mediaSection {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.horizontalLine {
+  border: 1px solid black;
+  width: 100%;
+}
+
+/* Videos */
+.videoSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.postVideo {
+  width: 100%;
+margin: 10px;
+padding: 10px;
+background-color: #f5f5f5;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+display: flex;
+}
+
+.backgroundvideo {
+  width:50%;
+  height: 150px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* background div */
+
+.postVideo:nth-child(1) .backgroundvideo {
+  background-image: url('./../../Assets/Profile/Video1.png');
+}
+
+.postVideo:nth-child(2) .backgroundvideo {
+  background-image: url('./../../Assets/Profile/Video2.png');
+}
+
+.postVideo:nth-child(3) .backgroundvideo {
+  background-image: url('./../../Assets/Profile/Video3.png');
+}
+
+/*  */
+.backgroundvideoSpan{
+  position: absolute;
+  bottom: 10px; 
+  right: 10px; 
+  background: rgba(0, 0, 0, 0.7); 
+  color: #fff; 
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
+
+.videoContext {
+  text-align: start;
+}
+
+.videoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.videoTime {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+
+/* font style */
+.Follow {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  border: none;
+}
+
+.Videos {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Events {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.videoTitle {
+  color: #111;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.videoTime {
+  color: #737272;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
