@@ -1,0 +1,107 @@
+/* .MainSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1280px;
+    height: 645px;
+    flex-shrink: 0;
+    background: url('./../../../Assets/Events/SeeMore/Events.png') lightgray 50% / cover no-repeat;
+} */
+/* EventIndex.module.css */
+
+.HeadSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .MainSection {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    text-align: center;
+    background: url('./../../../Assets/Events/SeeMore/Events.png') lightgray 50% / cover no-repeat;
+    width: 1280px;
+height: 645px; 
+
+  }
+  
+  .ParagraphTitle {
+    color: #1F588E;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;font-size: 24px;
+font-weight: bold;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .ParagraphHeading {
+    color: #111;
+text-align: center;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .Paragraph {
+    color: #111;
+text-align: center;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  
+  .Section {
+    display: flex;
+    align-items: start;
+    /* max-width: 800px; */
+    margin: 20px auto;
+    text-align: start;
+    background-color: #ffffff;
+    border-radius: 5px;
+padding-right: 20%;
+flex-direction: column;
+width: 50%;
+  }
+  
+  .EventTitle {
+    color: #181717;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .EventHeading {
+    color: #181717;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  
+  .EventTime {
+    color: #8C8B8B;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Add any additional styles or modifications as needed */
+  
