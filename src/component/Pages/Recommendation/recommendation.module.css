@@ -1,0 +1,220 @@
+.Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  /* padding: 20px; */
+}
+
+/* .RightSection {
+} */
+
+.ImageSection {
+  width: 840px;
+  height: 527px;
+  background: url("./../../Assets//Recommandation/One.png"),
+    lightgray 50% / cover no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ImageTitle {
+  color: #111;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.UserInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+}
+
+.UserImage {
+  padding-bottom: 60px;
+}
+
+.UserPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid #1f588e;
+  background: lightgray 50% / cover no-repeat;
+}
+.UserDetails {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+  padding-right: 176px;
+  width: 56%;
+}
+
+.Username {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.UserDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 70%;
+}
+
+.UserViews {
+  color: #515050;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.PostTime {
+  color: #515050;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.UserFollow {
+  width: 10px;
+  height: 0;
+  padding-bottom: 20%;
+}
+
+.Follow {
+  color: #1f588e;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ReviewSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.View{
+  color: #2E2C2C;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.View :hover{
+  cursor: pointer;
+}
+
+.LeftSection{
+  padding-bottom: 10%;
+  padding-right: 55;
+}
+
+.VideoSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.LeftUser{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 340px;
+  /* height: 226px; */
+  padding-right: 58px;
+}
+
+.LeftUserName{
+  color: #111;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.LeftUserDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 110%;
+}
+
+.LeftUserDetails{ display: flex;
+align-items: flex-start;
+justify-content: center;
+width: 50%;
+flex-direction: column;
+padding-right: 30px; }
+
+.LeftUserView{
+  color: #141414;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.LeftUserTime{
+  color: #131313;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.VideoImage{
+  border-radius: 12px;
+  background: url('./../../Assets/Recommandation/Two.png'), lightgray 50% / cover no-repeat;
+  width: 340px;
+height: 226px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.VideoImage1{
+  border-radius: 12px;
+  background: url('./../../Assets/Recommandation/Three.png'), lightgray 50% / cover no-repeat;
+  width: 340px;
+height: 226px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.VideoTitle{
+  color: #111;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 72%;
+padding-top: 10px;
+}
+
+
