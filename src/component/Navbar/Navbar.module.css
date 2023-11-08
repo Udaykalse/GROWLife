@@ -72,3 +72,21 @@
   background: #fff;
   border: none;
 }
+
+
+.navbarmiddle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  color: #1f588e;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.menu  a {
+  margin: 0 10px;
+}
