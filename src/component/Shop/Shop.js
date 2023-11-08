@@ -33,6 +33,7 @@ const Shop = () => {
       price: "$39.99",
       rating: [star2, star2, star2, star2, star1],
     },
+    
   ];
 
   return (
