@@ -1,0 +1,94 @@
+.verifcationSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  padding: 5%;
+}
+
+.verifcationLine {
+  width: 1p;
+  height: 40rem;
+  color: black;
+  background-color: black;
+  border: 1px black solid;
+}
+
+/* Inputs */
+
+.verifcationForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.Heading {
+  color: #040404;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Paragraph {
+  color: #181717;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.EmailInput {
+  border-bottom: 2px solid #2743fd;
+  /* background: #2743FD; */
+}
+
+.InputEmail {
+  border: none;
+  border-bottom: 1px bold #2743fd;
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Label {
+  color: #201f1f;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.OTPDiv {
+  padding-top: 10px;
+}
+
+.OTP {
+  display: inline-flex;
+  padding: 10px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #5ed6ea;
+  box-shadow: 3px 4px 10px 0px #72c4da;
+}
+
+.ButtonHeading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
