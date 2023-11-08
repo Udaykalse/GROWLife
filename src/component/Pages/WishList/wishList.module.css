@@ -1,0 +1,194 @@
+/* Default styles for .cardcontainer */
+.cardcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 60%;
+  border: 1px black solid;
+}
+
+/* Image */
+.imageDiv {
+  padding: 10px;
+}
+
+.CardImage {
+  width: 190px;
+  height: 230px;
+  margin: auto;
+  opacity: 50%;
+}
+
+.CardImage:hover {
+  opacity: 100%;
+  transition: all 1s;
+}
+
+/* ContextDiv */
+.contextDiv {
+  padding: 15px;
+  margin-right: 50%;
+}
+
+.CardTitle {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ratingDiv {
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 30px;
+  background: #268e15;
+  width: 51px;
+  height: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.CardRating {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cardPrice {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 65%;
+  margin-top: -18%;
+}
+
+.buyDiv {
+  display: inline-flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  border: 3px solid #327e47;
+}
+
+.buyDiv:hover {
+  background: #327e47;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buyButton {
+  color: #327e47;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: none;
+  border: none;
+}
+
+.buyButton:hover {
+  color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Delete Div */
+.buttonDiv {
+  margin-bottom: 20%;
+}
+
+.DeleteButton {
+  background: none;
+  border: none;
+}
+
+.DeleteButton:hover {
+  background-color: red;
+  border-radius: 50px;
+  color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .cardcontainer {
+    width: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .CardImage {
+    width: 140px;
+    height: 180px;
+  }
+
+  .CardTitle {
+    font-size: 24px;
+  }
+
+  .CardRating {
+    font-size: 16px;
+  }
+
+  .cardPrice {
+    font-size: 24px;
+  }
+
+  .buttonDiv {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  .cardcontainer {
+    width: 1cm;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .CardImage {
+    width: 70px;
+    height: 90px;
+  }
+
+  .CardTitle {
+    font-size: 24px;
+  }
+
+  .CardRating {
+    font-size: 16px;
+  }
+
+  .cardPrice {
+    font-size: 24px;
+  }
+
+  .buttonDiv {
+    margin-right: 100%;
+  }
+}
