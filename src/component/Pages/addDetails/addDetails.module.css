@@ -1,0 +1,227 @@
+* {
+  margin: 5px;
+}
+
+/* nav */
+.navDiv {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+}
+
+.removeButton:hover {
+  cursor: pointer;
+  background: red;
+  border-radius: 20px;
+}
+.navHeadind {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.leftNav button {
+  background: none;
+  border: none;
+}
+
+.DraftButton {
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: rgba(17, 17, 17, 0.71);
+}
+
+.DraftButton:hover {
+  cursor: pointer;
+  /* background-color: #1f588e; */
+  border-radius: 15px;
+  color: rgba(17, 17, 17, 0.71);
+}
+
+.saveDraftButton {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.buttonPost,
+.saveDraftButton,
+.postButton:hover {
+  cursor: pointer;
+}
+
+.buttonPost {
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #1f588e;
+}
+
+.postButton {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* post */
+
+.postDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  border: 1px solid #0a0000;
+  margin: 5%;
+  padding: 10px;
+}
+
+.postImage {
+  width: 325px;
+  height: 430px;
+}
+
+.textArea {
+  width: 100%;
+  border: none;
+  color: #323232;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.charCount {
+  margin-left: 90%;
+  color: #989797;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* description */
+
+.descriptionDiv {
+  width: 80%;
+  border: 1px solid #0a0000;
+  margin: 5%;
+  padding: 10px;
+}
+
+.descriptionTitle {
+  margin: 10px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.descriptionArea {
+  width: 870px;
+  border: 1px solid #0a0000;
+  margin: 10%;
+  padding: 10px;
+  height: 206px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.descriptioncontext {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 1%;
+  text-align: start;
+  
+}
+
+.descriptionSpan {
+  margin-top: 10%;
+  margin-left: 90%;
+  color: #989797;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* features div */
+
+.featuresDiv {
+  width: 70%;
+  margin: 8%;
+  padding: 10px;
+}
+
+.visibilityDiv,
+.locationDiv,
+.tagpeopleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+}
+
+.featuresSpan {
+  color: #515050;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.featuresTitle {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 70%;
+}
+
+.featuresIcon,
+.featuresSVG:hover{
+    cursor: pointer;
+}
