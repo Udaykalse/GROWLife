@@ -1,0 +1,260 @@
+/* Update your CSS file (signStyle.module.css) */
+.signhead-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10%;
+  width: 100%;
+  /* background-color: #FEFEFE; */
+}
+
+.signhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #FEEFFE; */
+  padding: 90px;
+  width: 90%;
+  margin: 5%s;
+}
+
+.signLeft {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.virtlicalline {
+  /* flex: 0; */
+  width: 1px;
+  background-color: #070505;
+  margin: 0 20px;
+  height: 100px;
+}
+
+.signRight {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.Banner {
+  background-image: url("./../Assets/signupBanner.png");
+  width: 486px;
+  height: 336px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Banner h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+
+
+.BannerHeading {
+  color: #3e3d3d;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BannerHeading span {
+  background: linear-gradient(90deg, #3cc220 59.68%, #00c0eb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BannerParagrapgh {
+  color: #040404;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signRight {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignUp {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SignupHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.SignupButton {
+    margin-top: 20px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.SignupButton:hover {
+  background-color: #555;
+}
+
+.SignupButton button{
+    display: flex;
+width: 156px;
+padding: 10px 20px;
+align-items: center;
+gap: 29px;
+background: transparent;
+border: none;
+border-radius: 12px;
+border: 1px solid #1F588E;
+box-shadow: 3px 4px 10px 0px #72C4DA;
+}
+
+.SignupButton button span{
+    text-align: end;
+    margin-left: 16px;
+}
+
+.SignUpMiddle {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.horizontalLineLeft,
+.horizontalLineright {
+  /* flex-grow: 1; */
+  width: 180px;
+  height: 1px;
+  background-color: #333;
+  margin: 0 10px;
+}
+
+.MidContent {
+  font-size: 16px;
+  color: #777;
+  font-weight: bold;
+}
+
+.SignUpLogo {
+  display: flex;
+  margin: 20px 0;
+}
+
+.SignUpGoogle,
+.SignUpFacebook,
+.SignUpApple {
+  margin: 0 10px;
+}
+
+
+.signRight {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.SignUpHead {
+  color: #040404;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.SignupHeadingRight {
+  color: #3e3c3c;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Inputs {
+  margin-top: 20px;
+}
+
+.InputGroup {
+  margin-bottom: 20px;
+}
+
+.InputGroup label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.InputGroup input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  border-radius: 12px;
+  border: 1px solid #94a4b2;
+}
+
+.SignUpBootom{
+    color: #7D7C7C;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.SignUpBootom a{
+    color: #2743FD;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration-line: underline;
+}
+
