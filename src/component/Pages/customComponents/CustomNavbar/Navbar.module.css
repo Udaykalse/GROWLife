@@ -1,0 +1,106 @@
+
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Logo styles */
+  .logo img {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Navigation link styles */
+  .navlinks a {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  /* Search bar styles */
+  .searchbar {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background: #e6e3e3;
+    width: 736px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  .searchbar input {
+    color: #716F6F;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    margin-left: 60px;
+    width: 90%;
+    border-radius: 50px;
+  }
+  
+  .searchbar img {
+    margin-left: -65%;
+  }
+  
+  /* Notification and Sign-up button styles */
+  .notification,
+  .sign-up,
+  .SearchIcon,
+  .Menu {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .notification {
+    margin: 0 10px;
+  }
+  
+  .notification button,
+  .signup button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .notification button img,
+  .signup button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .SearchIcon button:hover,
+  .signup button:hover ,
+  .Menu button:hover
+  {
+    cursor: pointer;
+  }
+  .Menu{
+    border-radius: 50px;
+    border: none;
+  }
+  .SearchIcon{
+    background: none;
+    margin-left: -99%;
+border: none;
+  }
+  
