@@ -1,0 +1,115 @@
+/* Help Section */
+.HelpSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Body Section */
+.bodySection {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+  width: 80%;
+}
+
+.headSection {
+  width: 914px;
+  height: 482px;
+  flex-shrink: 0;
+  background-image: url("./../../Assets/Help/HelpBg.png");
+  overflow: hidden;
+}
+
+.headTitle{
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 28%;
+    margin-left: 16%;
+
+}
+
+.headTitle{
+    color: #323232;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.bodySection .Cards {
+  height: 200px;
+  width: 200px;
+  flex: 1;
+  margin: 5px;
+}
+
+.bodySection {
+  justify-content: space-around; /* You can adjust the alignment as needed */
+  flex-wrap: wrap; 
+  flex-direction: column;
+}
+
+.CardsTitleDiv{
+    margin-left: -40%;
+}
+
+.bodySectionTitle{
+
+    color: #1D1D1D;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.CardsSection{
+    display: flex;
+
+}
+
+.Cards {
+    width: 247px;
+    height: 250px; 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;  
+  border: 1px solid #ccc; 
+  border-radius: 28px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.Cards img {
+  max-width: 100px; 
+  max-height: 100px;
+}
+
+.CardsTitle {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.imageButton {
+  background: none;
+  border: none;
+}
+.imageButton:hover {
+  cursor: pointer;
+}
