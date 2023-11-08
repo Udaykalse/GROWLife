@@ -1,0 +1,409 @@
+* {
+  background: #fff;
+}
+/*  searchbaer*/
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border-radius: 50px;
+  background: #e6e3e3;
+  width: 911px;
+  height: 70px;
+  flex-shrink: 0;
+  margin-left: 25%;
+}
+
+.searchbar input {
+  color: #716f6f;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  width: 895px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.searchbar img {
+  margin-left: -98%;
+  background: #e6e3e3;
+}
+
+.navTitle {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Setting.module.css */
+
+.settingSection {
+  padding: 20px;
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+.backButton {
+  cursor: pointer;
+}
+
+.navTitle {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.bodySection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSection {
+  width: 40%;
+  padding: 10px;
+}
+
+.rightSection {
+  width: 40%;
+  padding: 10px;
+  margin-top: 14%;
+}
+
+/* Text style */
+
+.leftText {
+  color: #111;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.leftTextActive {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -6%;
+  background: no-repeat;
+  margin-left: 15%;
+  margin-top: -12%;
+}
+.leftnavbarActivieButton {
+  border: none;
+  background: none;
+}
+
+.leftnavbarActivieButton svg {
+  border: none;
+  background: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.leftnavbarActivie {
+  width: 330px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #1f95d8;
+}
+
+.leftNavButton {
+  background: none;
+  border: none;
+}
+
+/* Extra */
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  margin-left: -15%;
+}
+
+.leftnavbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.leftNavButton {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.buttonDivLeft1 {
+  margin-left: -4%;
+  width: 26%;
+}
+
+.buttonDivLeft2 {
+  margin-left: -43%;
+  width: 50%;
+}
+
+.buttonDivLeft3 {
+  margin-left: -16%;
+  width: 35%;
+}
+
+.buttonDivLeft4 {
+  margin-left: -43%;
+}
+
+.buttonDivLeft5 {
+  margin-left: -22%;
+  width: 35%;
+}
+
+.Div6 {
+  margin-top: 17px;
+  background: none;
+}
+
+.buttonDivLeft6 {
+  margin-left: -57%;
+  width: 52%;
+}
+
+/* right Section */
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.inviteSearchbar {
+  margin-top: 0%;
+}
+.inviteInput {
+  margin-top: 3%;
+  border: none;
+  width: 80%;
+  margin-left: 2%;
+  background: transparent;
+}
+
+.sharetitleRight svg{
+    
+    margin-bottom: -5%;
+}
+
+
+
+
+
+
+.copybutton {
+  width: 60px;
+  margin-left: 84%;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #065fd4;
+  margin-top: -6%;
+}
+
+.inviteButton {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* right text style  */
+
+.inviteTitle {
+  color: #111;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -20%;
+  width: 23%;
+}
+
+.meassageTitle {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.meassageParagraph {
+    color: #2e2c2c;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px black solid;
+    padding: 50px;
+    width: 77%;
+}
+
+.sharetitle {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -80%;
+}
+
+.inviteSearchbar {
+  width: 731px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #bcbaba;
+  background: #fff;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.inviteInput {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* cards */
+
+/* Followers.module.css */
+.Section {
+  margin-top: -10%;
+  margin-left: 45%;
+  width: 100%;
+}
+.HorizontalLine {
+  width: 45%;
+  height: 1px;
+  background-color: #000;
+  margin-top: -10%;
+}
+
+.meassageSection {
+  border: 1px black bold;
+}
+.rightRodySectionNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* follower css */
+
+.Cards {
+  padding-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -99%;
+  width: 100%;
+}
+
+.FollowerCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 40%;
+  margin-right: 57%;
+}
+
+.FollowerInfo {
+  margin-right: 50%;
+}
+
+.buttonDiv {
+  display: inline-flex;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+  background: #24badb;
+}
+
+/* font style */
+
+.UserName {
+  color: #111;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.UserNumber {
+  color: #515151;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.FollowButton {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: none;
+  border: none;
+}
+
+.sharetitleRight {
+  color: #2e2c2c;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
