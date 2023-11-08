@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Style from "./SideBar.module.css";
 import NavbarPage from "../../NavbarPage/NavbarPage";
 import img1 from "./../../../Assets/homeAssets/one.png";
@@ -54,7 +54,7 @@ export default function SideBar(props) {
                 stroke-width="2"
               />
             </svg>
-            <Link to="/">Home</Link>
+            <a href='../More' >Home</a>
           </li>
           <li className={Style.liLink}>
             <svg
@@ -70,7 +70,7 @@ export default function SideBar(props) {
                 stroke-width="2"
               />
             </svg>
-            <Link to="/shop">Shop</Link>
+            <a href='../More' >Shop</a>
           </li>
           <li className={Style.liLink}>
             <svg
@@ -86,7 +86,9 @@ export default function SideBar(props) {
                 stroke-width="2"
               />
             </svg>
-            <Link to="/events">Events</Link>
+            {/* <Link to="/events">Events</Link> */}
+            <a href='../More' >Events</a>
+
           </li>
           <li className={Style.liLink}>
             <svg
@@ -101,7 +103,8 @@ export default function SideBar(props) {
                 fill="#111111"
               />
             </svg>
-            <Link to="/settings">Settings</Link>
+            {/* <Link to="/settings">Settings</Link> */}
+            <a href='../More' >Settings</a>
           </li>
           <li className={Style.liLink}>
             <svg
@@ -116,7 +119,8 @@ export default function SideBar(props) {
                 fill="#3C3C3C"
               />
             </svg>
-            <Link to="/">More</Link>
+            {/* <Link to="/">More</Link> */}
+            <a href='../More' >More</a>
           </li>
         </ul>
       </div>
